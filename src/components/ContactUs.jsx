@@ -36,12 +36,13 @@ function ContactUs() {
             <img src={contactusbg} className="w-[300px] mr-10"/>
     <div className='w-full' >
     <form  ref={form} onSubmit={sendEmail} className='flex flex-col'>
-      <label>Name</label>
-      <input className='h-10 border-4 mt-2' type="text" name="to_name" />
-      <label>Email</label>
-      <input className='h-10 border-4 mt-2' type="email" name="from_name" />
-      <label>Message</label>
-      <textarea className='h-300 border-4 mt-2' name="message" />
+      <label className="block text-sm font-medium leading-6 text-gray-900">Name</label>
+      <input className='h-10 border-4 mt-2 block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6' type="text" name="to_name" />
+      <label className="block text-sm font-medium leading-6 text-gray-900">Email</label>
+      <input className='h-10 border-4 mt-2 block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6' type="email" name="from_name" />
+      <label className="block text-sm font-medium leading-6 text-gray-900">Message</label>
+      <textarea  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+ name="message" />
       <input value='send'type="submit"  className='transition-all ease-in-out hover:scale-110 bg-blue-500 flex flex-row items-center justify-center text-[14px]  py-1 mt-5 text-white  rounded-md' />
     </form>
   </div>
