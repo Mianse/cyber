@@ -36,25 +36,19 @@ Tailored Solutions:
 Every organization has unique needs. Cybersecurity solutions should be customized to fit those specific requirements, much like finding a home that suits individual preferences.
 Long-Term Strategy:
 
-A "Forever Home" implies stability and a long-term commitment. Similarly, effective cybersecurity requires ongoing strategies, regular updates, and continuous monitoring to adapt to evolving threats.
-Risk Management:
 
-Just as you assess potential homes for safety and suitability, organizations must evaluate their vulnerabilities and implement risk management practices to protect their assets.
-Trust and Assurance:
-
-A home offers security and peace of mind. In cybersecurity, building trust with clients through transparent practices and reliable protection fosters confidence in the solutions provided.
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
         <a
-          href="#"
+          href="#/abotUs"
           className="block w-full rounded bg-blue-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-900 focus:outline-none focus:ring active:bg-blue-900 sm:w-auto"
         >
           Get Started
         </a>
 
         <a
-          href="#"
+          href="#/contactUs"
           className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue shadow hover:text-blue focus:outline-none focus:ring active:text-black sm:w-auto"
         >
           Learn More
