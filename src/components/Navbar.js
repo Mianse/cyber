@@ -23,26 +23,26 @@ const NavBar = () => {
           <nav aria-label="Global" className="hidden md:block">
             <ul className="flex items-center gap-6 text-sm">
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/aboutUs"> About </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#aboutUs"> About </a>
               </li>
   
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/companies"> Companies </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#companies"> Companies </a>
               </li>
   
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/porttfolio"> Portfolio </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#porttfolio"> Portfolio </a>
               </li>
   
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/skills"> Skills </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#skills"> Skills </a>
               </li>
   
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/portfolio"> Projects </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#portfolio"> Projects </a>
               </li>
                <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/contact"> Contact Us </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#contact"> Contact Us </a>
               </li>
          
             </ul>
