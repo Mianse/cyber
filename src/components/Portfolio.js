@@ -24,7 +24,7 @@ const Portfolio = () => {
         }
     }
   return (
-    <div className='mx-auto max-w-screen-2xl mt-5 flex justify-center flex-col'>
+    <div id="portfolio" className='mx-auto max-w-screen-2xl mt-5 flex justify-center flex-col'>
         <div className='flex flex-row px-6 md:px-0 items-center justify-center'>
         {/* <h1 className='text-[40px] font-bold'>{AppText.Creative}
         <span className='text-purple-600'>{AppText.Portfolio}</span></h1> */}
