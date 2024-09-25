@@ -27,7 +27,7 @@ const NavBar = () => {
               </li>
   
               <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/company"> Companies </a>
+                <a className="text-gray-500 transition hover:text-gray-500/75" href="#/companies"> Companies </a>
               </li>
   
               <li>
