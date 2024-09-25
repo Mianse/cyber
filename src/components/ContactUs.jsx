@@ -41,7 +41,7 @@ function ContactUs() {
       <label>Email</label>
       <input className='h-10 border-4 mt-2' type="email" name="from_name" />
       <label>Message</label>
-      <textarea className='h-500 border-4 mt-2' name="message" />
+      <textarea className='h-300 border-4 mt-2' name="message" />
       <input value='send'type="submit"  className='transition-all ease-in-out hover:scale-110 bg-blue-500 flex flex-row items-center justify-center text-[14px]  py-1 mt-5 text-white  rounded-md' />
     </form>
   </div>
